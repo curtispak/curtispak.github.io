@@ -23,13 +23,10 @@ a{
   padding-right: 75px;
   padding-top: 200px;
 }
-.commisions1{
-  display:flex;
-  padding-top: 80px;
-  justify-content: space-around;
-  padding-left: 350px;
-  padding-right: 75px;
-  padding-top: 200px;
+.selfpicture {
+  width: 75%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
+
 }
 h1, h2 {
   font-family: "Raleway", sans-serif;
@@ -72,7 +69,7 @@ h5{
   color: #222;
 }
 
-.projectspage, .aboutpage, .archivespage, .commisionspage{
+.projectspage, .aboutpage, .archivespage, .commissionspage{
   text-decoration: none;
 
 }
@@ -83,7 +80,6 @@ img{
   align-items: flex-end;
 }
 .selfpicture {
-    flex:10;
     width: 75%;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
 
@@ -99,4 +95,20 @@ img{
   align-items: center;
   justify-content: center;
 
+}
+.entry{
+  display:flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 75px;
+  padding-top: 200px;
+}
+.commissions1{
+  display:flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 75px;
+  padding-top: 200px;
 }
