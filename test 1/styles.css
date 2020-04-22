@@ -1,0 +1,43 @@
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+}
+
+.container {
+  width: 1000px;
+  max-width: 80%;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: black;
+  padding: 5px 10px;
+  color: red;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+
+}
