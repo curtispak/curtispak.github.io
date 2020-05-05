@@ -1,0 +1,119 @@
+.heading{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0;
+  font-weight:400;
+  padding-top:35px;
+  padding-left: 300px;
+  padding-right: 190px;
+}
+
+a{
+    color: #959BA6;
+}
+.entry{
+  display:flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 75px;
+  padding-top: 200px;
+}
+.selfpicture {
+  width: 75%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
+
+}
+h1, h2 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 300;
+  padding-right: 100px;
+  padding-left: 25px;
+}
+h3{
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 600;
+
+
+}
+h5{
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 900;
+
+
+}
+.intro{
+  display:flex;
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.name{
+  width:45%;
+  text-decoration: none;
+  font-size: 33px;
+  color: #222;
+}
+
+.projectspage, .aboutpage, .archivespage, .commissionspage{
+  text-decoration: none;
+
+}
+img{
+  display:flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+.selfpicture {
+    width: 75%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
+
+}
+.selfpicture2 {
+    width: 75%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.12), 0 9px 25px 1px rgba(0, 0, 0, 0.12), 0 10px 45px 0 rgba(0, 0, 0, 0.12);
+
+}
+.single-img{
+  width: 300px;
+  height: auto;
+}
+.img-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.entryabout{
+  display:flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 330px;
+  padding-top: 200px;
+}
+.commissions1{
+  display:flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 75px;
+  padding-top: 200px;
+}
