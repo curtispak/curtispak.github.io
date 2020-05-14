@@ -12,3 +12,7 @@ function isClicked(){
   theTxt.textContent = "you turned me blue!";
   theBody.style.backgroundColor = "yellow";
 }
+
+function playButton(){
+  let audio
+}
