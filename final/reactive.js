@@ -2,6 +2,8 @@ var mic;
 var WIDTH=1280;
 var HEIGHT=1080;
 
+function preload(){
+  sound = loadSound("backgroundmusic.mp3");
 
 function touchStarted() {
   getAudioContext().resume();
@@ -14,6 +16,7 @@ function setup() {
   createCanvas(WIDTH, HEIGHT );
   mic = new p5.AudioIn();
   mic.start();
+  sound.setVolume(1);
 }
 
 function draw() {
@@ -23,5 +26,6 @@ function draw() {
   if (vol > 0.75){
     background(0);
     fill("#FF0000");
+    sound.play();
   }
 }
